@@ -1,0 +1,1 @@
+export function Urgency() { return <section className="px-5 py-14"><div className="mx-auto max-w-3xl rounded-2xl border border-gold/30 bg-gold/10 px-6 py-7 text-center"><p className="font-semibold text-navy">Your strategy is tailored to your business, current challenges, and growth goals.</p></div></section>; }

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-ink antialiased; }
+::selection { @apply bg-gold/30 text-navy; }
+.hero-grid { background-image: linear-gradient(rgba(23,72,165,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(23,72,165,.045) 1px, transparent 1px); background-size: 42px 42px; mask-image: linear-gradient(to bottom, black, transparent 85%); }
+.eyebrow { @apply inline-flex items-center gap-2 rounded-full border border-royal/15 bg-white/80 px-4 py-2 text-xs font-bold uppercase tracking-[.16em] text-royal shadow-sm; }
+.section-title { @apply text-center text-3xl font-extrabold tracking-[-.035em] text-navy sm:text-4xl; }
+.input { @apply mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3.5 text-base text-ink outline-none transition placeholder:text-slate-400 focus:border-royal focus:ring-4 focus:ring-royal/10; }
