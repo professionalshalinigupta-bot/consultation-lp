@@ -17,7 +17,7 @@ body { @apply bg-white text-ink antialiased; }
 .flodesk-shell .ff-6a958b5f9153bb81cb95b65c__field { margin-bottom: 1.1rem; position: relative; }
 .flodesk-shell .ff-visible-label { display: block; margin-bottom: .4rem; color: #102A62; font-size: .875rem; font-weight: 700; }
 .flodesk-shell .ff-visible-label span, .flodesk-shell .ff-required-note span { color: #c84e41; }
-.flodesk-shell .ff-required-note { margin: 0 0 1.25rem; color: #64748b; font-size: .8125rem; }
+.flodesk-shell .ff-required-note { margin: 0 0 1.25rem; color: #c84e41; font-size: .8125rem; font-weight: 700; }
 .flodesk-shell .ff-link-help { margin: .5rem 0 0; color: #64748b; font-size: .8rem; line-height: 1.5; }
 .flodesk-shell .ff-link-help span { color: #1748A5; font-weight: 600; }
 .flodesk-shell .ff-6a958b5f9153bb81cb95b65c__control { width: 100%; height: 3.45rem; border: 1px solid #e2e8f0; border-radius: .75rem; padding: .85rem 1rem; color: #162039; font-family: inherit; font-size: 1rem; outline: none; }
