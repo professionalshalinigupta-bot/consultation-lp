@@ -20,6 +20,8 @@ body { @apply bg-white text-ink antialiased; }
 .flodesk-shell .ff-required-note { margin: 0 0 1.25rem; color: #c84e41; font-size: .8125rem; font-weight: 700; }
 .flodesk-shell .ff-link-help { margin: .5rem 0 0; color: #64748b; font-size: .8rem; line-height: 1.5; }
 .flodesk-shell .ff-link-help span { color: #1748A5; font-weight: 600; }
+.flodesk-shell .ff-field-required { margin: .35rem 0 0; color: #c84e41; font-size: .8rem; font-weight: 700; }
+.flodesk-shell .ff-no-link-help { margin: .25rem 0 0; color: #475569; font-size: .8rem; line-height: 1.5; }
 .flodesk-shell .ff-6a958b5f9153bb81cb95b65c__control { width: 100%; height: 3.45rem; border: 1px solid #e2e8f0; border-radius: .75rem; padding: .85rem 1rem; color: #162039; font-family: inherit; font-size: 1rem; outline: none; }
 .flodesk-shell .ff-6a958b5f9153bb81cb95b65c__control:focus { border-color: #1748A5; box-shadow: 0 0 0 4px rgba(23,72,165,.1); }
 .flodesk-shell .ff-6a958b5f9153bb81cb95b65c__label { display: none; }
