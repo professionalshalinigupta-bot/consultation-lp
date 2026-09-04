@@ -9,6 +9,7 @@ body { @apply bg-white text-ink antialiased; }
 .eyebrow { @apply inline-flex items-center gap-2 rounded-full border border-royal/15 bg-white/80 px-4 py-2 text-xs font-bold uppercase tracking-[.16em] text-royal shadow-sm; }
 .section-title { @apply text-center text-3xl font-extrabold tracking-[-.035em] text-navy sm:text-4xl; }
 .input { @apply mt-2 w-full rounded-xl border border-slate-200 bg-white px-4 py-3.5 text-base text-ink outline-none transition placeholder:text-slate-400 focus:border-royal focus:ring-4 focus:ring-royal/10; }
+.brand-logo { background: linear-gradient(100deg, #102A62 0%, #1748A5 55%, #D7A738 100%); mask: url("/logo-mark.png") center / contain no-repeat; -webkit-mask: url("/logo-mark.png") center / contain no-repeat; }
 
 /* Flodesk embed: visual overrides only. Its native capture flow remains unchanged. */
 .flodesk-shell [data-ff-el="root"].ff-6a958b5f9153bb81cb95b65c { color: #162039; font-family: inherit; }
